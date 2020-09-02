@@ -1,18 +1,8 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class="h-7 sticky m-0 bg-white">
-  <div class="navbar">
-    <div class="ml-1">
-      <img src="../favicon.ico" alt="logo" routerLink="/blog">
-    </div>
-    <div class="link ml-1">
-      <a routerLink="/blog" class="p-1">Blog</a>
-    </div>
-    <div class="link">
-      <a routerLink="/scrum-tests" class="p-1">Agile</a>
-    </div>
-    <div class="link">
-      <a routerLink="/stocks" class="p-1">Stocks</a>
-    </div>
-  </div>
-</div>
+<nav mat-tab-nav-bar class="bg-white">
+  <a mat-tab-link routerLink="/about">
+    <img src="../favicon.ico" alt="About André Alexandre Fermento Lourenço logo">
+  </a>
+  <a mat-tab-link routerLink="/psm">Tips</a>
+  <a mat-tab-link routerLink="/scrum-test">PSM Pratice</a>
+</nav>
 <router-outlet></router-outlet>

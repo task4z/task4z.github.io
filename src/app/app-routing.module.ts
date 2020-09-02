@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
-import { BlogComponent } from './blog/blog.component';
 import { ScrumTestsComponent } from './scrum-tests/scrum-tests.component';
 import { StocksComponent } from './stocks/stocks.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PsmTipsComponent } from './psm-tips/psm-tips.component';
 
 const routes: Routes = [
   {
@@ -12,12 +12,12 @@ const routes: Routes = [
     component: AboutComponent,
   },
   {
-    path: 'blog',
-    component: BlogComponent,
+    path: 'scrum-test',
+    component: ScrumTestsComponent,
   },
   {
-    path: 'scrum-tests',
-    component: ScrumTestsComponent,
+    path: 'psm',
+    component: PsmTipsComponent,
   },
   {
     path: 'stocks',

@@ -1,32 +1,3 @@
-.h-7{
-  height: 7%;
-}
-
-.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-.navbar{
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.navbar a {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.link {
-  height: 50%;
-  align-items: center;
-  display: flex;
-  width: calc(99% / 3 - 64px);
-  border-left: 1px solid lightgray;
-}
-
 .bg-white{
   background-color: white;
 }

@@ -1,4 +1,5 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, ViewChild, AfterViewInit } from '@angular/core';
+import { Observable, fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,4 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'al';
 }
