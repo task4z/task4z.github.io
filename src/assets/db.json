@@ -1,270 +1,259 @@
 {
-  "Questions":[
-    {
-      "Question":{
-        "Text":"What provides guidance to the Development Team on why it is building the Increment?",
-        "Multiselect":false,
-      },
-      "Answers":[
-        {
-          "Answer":"The Product Owner",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Goal",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Scrum Master",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Backlog",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"What happens when a Sprint is cancelled? Select three.",
-        "Multiselect":true,
-      },
-      "Answers":[
-        {
-          "Answer":"At the Sprint Retrospective the Scrum Master determines who from the Development Team is responsible for cancelling the Sprint",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":" If part of the work is potentially releasable, the Product Owner typically accepts it",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"Several top Product Backlog Items are taken into the Sprint Backlog to replace the obsolete items",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"Any completed and “Done” Product Backlog items are reviewed",
-          "Correct":true,
-          "Selected":false
-        }
-        },
-        {
-          "Answer":" All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog",
-          "Correct":true,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"Could the Product Owner and the Scrum Master be a part of the Development Team?",
-        "Multiselect":false,
-      },
-      "Answers":[
-        {
-          "Answer":"Yes",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"No",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"Other people than the Scrum Team can attend the Sprint Planning in order to provide technical or domain advice.",
-        "Multiselect":false,
-      },
-      "Answers":[
-        {
-          "Answer":"Yes",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"No",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"Check all the formal opportunities to inspect and adapt.",
-        "Multiselect":true,
-      },
-      "Answers":[
-        {
-          "Answer":"The Daily Scrum",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Retrospective",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Planning",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Review",
-          "Correct":true,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"What is the Sprint Retrospective?",
-        "Multiselect":false,
-      },
-      "Answers":[
-        {
-          "Answer":"It is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"It is the key inspect and adapt meeting",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"It is a meeting where the Development Team synchronizes activities and creates a plan for the next 24 hours",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"It is a meeting to inspect the Increment and adapt the Product Backlog if needed",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team.",
-        "Multiselect":false,
-      },
-      "Answers":[
-        {
-          "Answer":"False",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"True",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"What does Product Backlog management include? Select three most applicable items.",
-        "Multiselect":true,
-      },
-      "Answers":[
-        {
-          "Answer":"Optimizing the value of the work the Development Team performs",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"Ordering the items in the Product Backlog to best achieve goals and missions",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"Presenting Product Backlog items to the Key Stakeholders",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"Moving Product Backlog items into the Sprint Backlog",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"Who is responsible for managing the Product Backlog?",
-        "Multiselect":false,
-      },
-      "Answers":[
-        {
-          "Answer":"The Product Owner",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Development Team",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"The Key Stakeholders",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"The Scrum Master",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    },
-    {
-      "Question":{
-        "Text":"Select the two meetings in which people outside the Scrum Team are allowed to participate.",
-        "Multiselect":true,
-      },
-      "Answers":[
-        {
-          "Answer":"The Daily Scrum",
-          "Correct":false,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Review",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Planning",
-          "Correct":true,
-          "Selected":false
-        },
-        {
-          "Answer":"The Sprint Retrospective",
-          "Correct":false,
-          "Selected":false
-        }
-      ]
-    }
-  ]
+	"Questions": [{
+			"Question": {
+				"Text": "What provides guidance to the Development Team on why it is building the Increment?",
+				"Multiselect": false
+			},
+			"Answers": [{
+					"Answer": "The Product Owner",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Goal",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Scrum Master",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Backlog",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "What happens when a Sprint is cancelled? Select three.",
+				"Multiselect": true
+			},
+			"Answers": [{
+					"Answer": "At the Sprint Retrospective the Scrum Master determines who from the Development Team is responsible for cancelling the Sprint",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": " If part of the work is potentially releasable, the Product Owner typically accepts it",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "Several top Product Backlog Items are taken into the Sprint Backlog to replace the obsolete items",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "Any completed and “Done” Product Backlog items are reviewed",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": " All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog",
+					"Correct": true,
+					"Selected": false
+				}
+
+			]
+		},
+		{
+			"Question": {
+				"Text": "Could the Product Owner and the Scrum Master be a part of the Development Team?",
+				"Multiselect": false
+			},
+			"Answers": [{
+					"Answer": "Yes",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "No",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "Other people than the Scrum Team can attend the Sprint Planning in order to provide technical or domain advice.",
+				"Multiselect": false
+			},
+			"Answers": [{
+					"Answer": "Yes",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "No",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "Check all the formal opportunities to inspect and adapt.",
+				"Multiselect": true
+			},
+			"Answers": [{
+					"Answer": "The Daily Scrum",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Retrospective",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Planning",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Review",
+					"Correct": true,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "What is the Sprint Retrospective?",
+				"Multiselect": false
+			},
+			"Answers": [{
+					"Answer": "It is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "It is the key inspect and adapt meeting",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "It is a meeting where the Development Team synchronizes activities and creates a plan for the next 24 hours",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "It is a meeting to inspect the Increment and adapt the Product Backlog if needed",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team.",
+				"Multiselect": false
+			},
+			"Answers": [{
+					"Answer": "False",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "True",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "What does Product Backlog management include? Select three most applicable items.",
+				"Multiselect": true
+			},
+			"Answers": [{
+					"Answer": "Optimizing the value of the work the Development Team performs",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "Ordering the items in the Product Backlog to best achieve goals and missions",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "Presenting Product Backlog items to the Key Stakeholders",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "Moving Product Backlog items into the Sprint Backlog",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "Who is responsible for managing the Product Backlog?",
+				"Multiselect": false
+			},
+			"Answers": [{
+					"Answer": "The Product Owner",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Development Team",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "The Key Stakeholders",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "The Scrum Master",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		},
+		{
+			"Question": {
+				"Text": "Select the two meetings in which people outside the Scrum Team are allowed to participate.",
+				"Multiselect": true
+			},
+			"Answers": [{
+					"Answer": "The Daily Scrum",
+					"Correct": false,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Review",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Planning",
+					"Correct": true,
+					"Selected": false
+				},
+				{
+					"Answer": "The Sprint Retrospective",
+					"Correct": false,
+					"Selected": false
+				}
+			]
+		}
+	]
 }

@@ -8,8 +8,8 @@ import { TestEffects } from './effect/test.effect';
 @NgModule({
   imports: [
     CommonModule,
+    EffectsModule.forFeature([TestEffects]),
     StoreModule.forFeature(fromTest.testFeatureKey, fromTest.reducer),
-    EffectsModule.forFeature([TestEffects])
   ],
   declarations: []
 })

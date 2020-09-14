@@ -1,8 +1,7 @@
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { selectTestList, selectAppComponentViewModel } from '../store/selector/test.selector';
-import { createTest, createTestSucceeded } from '../store/action/test.actions';
-import { fromEvent, Observable } from 'rxjs';
+import { selectTest } from '../store/selector/test.selector';
+import { createTest } from '../store/action/test.actions';
 
 @Component({
   selector: 'app-scrum-tests',
@@ -11,7 +10,7 @@ import { fromEvent, Observable } from 'rxjs';
 })
 export class ScrumTestsComponent implements OnInit {
 
-  test$ = this.store.select(selectAppComponentViewModel);
+  test$ = this.store.select(selectTest);
 
   constructor(private store: Store<{}>) {}
 
