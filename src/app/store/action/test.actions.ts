@@ -12,5 +12,5 @@ export const createTest = createAction(
 
 export const createTestSucceeded = createAction(
   '[Test Component] Create New Test Succeeded',
-  props<{test: AllQuestions[]}>()
+  props<{test: AllQuestions}>()
 );

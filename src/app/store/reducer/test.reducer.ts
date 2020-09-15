@@ -3,7 +3,7 @@ import { createTest, createTestSucceeded } from '../action/test.actions';
 import { AllQuestions } from 'src/app/models/all-questions.model';
 
 export interface TestState {
-  test: AllQuestions[];
+  test: AllQuestions;
   isLoading: boolean;
   error: string;
 }
@@ -11,7 +11,7 @@ export interface TestState {
 export const testFeatureKey = 'test';
 
 export const initialState: TestState = {
-  test: [],
+  test: null,
   isLoading: false,
   error: ''
 };

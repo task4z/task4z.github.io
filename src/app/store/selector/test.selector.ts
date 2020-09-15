@@ -1,6 +1,10 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
 import * as fromTest from '../reducer/test.reducer';
 import { getRouterState } from 'src/app/router-store/router.reducer';
+import { AllQuestions } from 'src/app/models/all-questions.model';
+import { TestEffects } from '../effect/test.effect';
+import { TestService } from '../service/test.service';
+
 
 // Lookup the 'Test' feature state managed by NgRx
 const getTestState = createFeatureSelector<fromTest.TestState>(
@@ -9,24 +13,5 @@ const getTestState = createFeatureSelector<fromTest.TestState>(
 
 export const selectTest = createSelector(
   getTestState,
-  getRouterState,
-  (state, route) => ({
-    state ,
-    route
-  })
+  state => state.test
 );
-/*
-  private selectQuestions(questions: AllQuestions[]): AllQuestions[] {
-    return this.shuffle(questions.map(e => {
-      this.shuffle(e.Questions);
-    }));
-  }
-
-  private shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
-  */

@@ -12,7 +12,7 @@ export class TestService {
   constructor(private http: HttpClient) {
   }
 
-  getQuestions(): Observable<AllQuestions[]> {
-    return this.http.get<AllQuestions[]>('../../../assets/db.json');
+  getQuestions(): Observable<AllQuestions> {
+    return this.http.get<AllQuestions>('../../../assets/db.json');
   }
 }
